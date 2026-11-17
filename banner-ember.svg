@@ -1,0 +1,195 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" role="img" aria-label="Parv - AI / ML, computer vision, inference systems" xmlns:c2pa="http://c2pa.org/manifest">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#06070a"/>
+      <stop offset="0.5" stop-color="#11131a"/>
+      <stop offset="0.82" stop-color="#2b1710"/>
+      <stop offset="1" stop-color="#6b2a12"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffb27a" stop-opacity="0.85"/>
+      <stop offset="0.25" stop-color="#ff6a2b" stop-opacity="0.40"/>
+      <stop offset="1" stop-color="#ff6a2b" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0b0f"/>
+      <stop offset="1" stop-color="#1c1411"/>
+    </linearGradient>
+    <linearGradient id="bodyFar" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07080b"/>
+      <stop offset="1" stop-color="#120d0b"/>
+    </linearGradient>
+    <linearGradient id="rim" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff6a2b" stop-opacity="0"/>
+      <stop offset="0.55" stop-color="#ff6a2b" stop-opacity="0.05"/>
+      <stop offset="1" stop-color="#ffa36b" stop-opacity="0.95"/>
+    </linearGradient>
+    <linearGradient id="haze" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b1710" stop-opacity="0"/>
+      <stop offset="0.6" stop-color="#2b1710" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#0a0b0e" stop-opacity="0.95"/>
+    </linearGradient>
+    <linearGradient id="fog" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff8a4a" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ff8a4a" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#ff8a4a" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffd2b0" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffd2b0" stop-opacity="0.07"/>
+      <stop offset="1" stop-color="#ffd2b0" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="blur" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="2.2"/></filter>
+    <filter id="bloom" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="reveal"><rect x="56" y="40" height="100" width="0"><animate attributeName="width" from="0" to="460" dur="1.5s" begin="0.3s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".2 .7 .2 1"/></rect></clipPath>
+  </defs>
+
+  <rect width="1200" height="360" fill="url(#sky)"/>
+  <circle cx="930" cy="262" r="240" fill="url(#glow)"/>
+
+  <!-- stars -->
+  <g fill="#f3e6d8">
+    <circle cx="140" cy="36" r="0.9"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="4s" repeatCount="indefinite"/></circle>
+    <circle cx="310" cy="62" r="0.7"><animate attributeName="opacity" values="0.8;0.2;0.8" dur="5s" repeatCount="indefinite"/></circle>
+    <circle cx="520" cy="28" r="1"><animate attributeName="opacity" values="0.3;1;0.3" dur="3.5s" repeatCount="indefinite"/></circle>
+    <circle cx="690" cy="54" r="0.8"><animate attributeName="opacity" values="0.9;0.3;0.9" dur="6s" repeatCount="indefinite"/></circle>
+    <circle cx="860" cy="30" r="0.9"><animate attributeName="opacity" values="0.2;0.8;0.2" dur="4.5s" repeatCount="indefinite"/></circle>
+    <circle cx="1040" cy="58" r="0.7"><animate attributeName="opacity" values="0.7;0.2;0.7" dur="5.5s" repeatCount="indefinite"/></circle>
+    <circle cx="1150" cy="24" r="1"><animate attributeName="opacity" values="0.3;0.9;0.3" dur="3.8s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- far ridge -->
+  <path d="M0 250 L0 232 L90 218 L170 230 L260 206 L350 224 L450 200 L560 226 L660 208 L760 228 L860 204 L960 224 L1060 210 L1200 228 L1200 250 Z" fill="#0d0e12"/>
+
+  <!-- wall with towers -->
+  <path d="M0 270 L0 238 L60 238 L60 226 L76 226 L76 238 L180 238 L180 216 L236 216 L236 238 L400 238 L400 226 L416 226 L416 238 L560 238 L560 214 L616 214 L616 238 L800 238 L800 226 L816 226 L816 238 L980 238 L980 216 L1036 216 L1036 238 L1200 238 L1200 270 Z" fill="#090a0d"/>
+  <path d="M0 238 L60 238 L60 226 L76 226 L76 238 L180 238 L180 216 L236 216 L236 238 L400 238 L400 226 L416 226 L416 238 L560 238 L560 214 L616 214 L616 238 L800 238 L800 226 L816 226 L816 238 L980 238 L980 216 L1036 216 L1036 238 L1200 238" fill="none" stroke="#ff6a2b" stroke-opacity="0.22" stroke-width="1"/>
+  <g fill="#ffb27a">
+    <rect x="198" y="224" width="3" height="5"><animate attributeName="opacity" values="1;0.3;1;0.8;1" dur="3s" repeatCount="indefinite"/></rect>
+    <rect x="212" y="224" width="3" height="5"><animate attributeName="opacity" values="0.4;1;0.5;1;0.4" dur="4.2s" repeatCount="indefinite"/></rect>
+    <rect x="578" y="222" width="3" height="5"><animate attributeName="opacity" values="1;0.5;1;0.2;1" dur="3.6s" repeatCount="indefinite"/></rect>
+    <rect x="594" y="222" width="3" height="5"><animate attributeName="opacity" values="0.6;1;0.3;1;0.6" dur="5s" repeatCount="indefinite"/></rect>
+    <rect x="998" y="224" width="3" height="5"><animate attributeName="opacity" values="1;0.4;1;0.7;1" dur="4.6s" repeatCount="indefinite"/></rect>
+  </g>
+
+  <!-- far fog -->
+  <g filter="url(#blur)">
+    <rect x="-500" y="212" width="500" height="40" fill="url(#fog)"><animate attributeName="x" values="-500;1200" dur="52s" repeatCount="indefinite"/></rect>
+    <rect x="-600" y="236" width="600" height="30" fill="url(#fog)"><animate attributeName="x" values="-600;1200" dur="70s" repeatCount="indefinite"/></rect>
+  </g>
+
+  <!-- the giant -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="-220 0;1420 0" dur="64s" repeatCount="indefinite"/>
+    <g transform="translate(0 176) scale(0.85)">
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 -4;0 0" keyTimes="0;0.5;1" calcMode="spline" keySplines=".4 0 .6 1;.4 0 .6 1" dur="1.4s" repeatCount="indefinite"/>
+
+        <!-- far leg -->
+        <g>
+          <animateTransform attributeName="transform" type="rotate" values="-28 0 0;20 0 0;-4 0 0;-28 0 0" keyTimes="0;0.5;0.75;1" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1;.45 0 .55 1" dur="2.8s" begin="-1.4s" repeatCount="indefinite"/>
+          <path d="M-17 -4 C-21 30 -15 60 -11 82 L11 82 C16 58 21 28 17 -4 Z" fill="url(#bodyFar)" stroke="url(#rim)" stroke-width="1.4"/>
+          <g transform="translate(0 82)">
+            <animateTransform attributeName="transform" additive="sum" type="rotate" values="0 0 0;12 0 0;62 0 0;0 0 0" keyTimes="0;0.5;0.75;1" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1;.45 0 .55 1" dur="2.8s" begin="-1.4s" repeatCount="indefinite"/>
+            <path d="M-11 0 C-15 22 -9 52 -6 80 L6 80 C9 52 12 22 11 0 Z" fill="url(#bodyFar)" stroke="url(#rim)" stroke-width="1.4"/>
+            <path d="M-7 78 L7 78 L9 88 C22 90 32 94 34 100 L-9 100 Z" fill="url(#bodyFar)" stroke="url(#rim)" stroke-width="1.4"/>
+          </g>
+        </g>
+
+        <!-- far arm -->
+        <g transform="translate(-6 -116)">
+          <g>
+            <animateTransform attributeName="transform" type="rotate" values="-22 0 0;18 0 0;-22 0 0" keyTimes="0;0.5;1" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1" dur="2.8s" repeatCount="indefinite"/>
+            <path d="M-12 -6 C-14 20 -11 46 -8 70 L8 70 C11 46 13 20 12 -6 Z" fill="url(#bodyFar)" stroke="url(#rim)" stroke-width="1.4"/>
+            <g transform="translate(0 70)">
+              <animateTransform attributeName="transform" additive="sum" type="rotate" values="-12 0 0;-34 0 0;-12 0 0" keyTimes="0;0.5;1" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1" dur="2.8s" repeatCount="indefinite"/>
+              <path d="M-8 0 C-10 22 -8 44 -5 62 L-5 78 L7 80 L8 62 C10 44 10 20 8 0 Z" fill="url(#bodyFar)" stroke="url(#rim)" stroke-width="1.4"/>
+            </g>
+          </g>
+        </g>
+
+        <!-- torso and head -->
+        <g transform="rotate(-3)">
+          <path d="M-24 0 C-30 -30 -42 -70 -48 -108 C-46 -124 -20 -134 0 -134 C26 -134 50 -124 52 -106 C46 -70 34 -30 26 0 Z" fill="url(#body)" stroke="url(#rim)" stroke-width="1.6"/>
+          <path d="M-8 -132 L-6 -142 L16 -142 L20 -130 Z" fill="url(#body)"/>
+          <path d="M-2 -140 C-8 -160 2 -184 26 -184 C44 -184 52 -166 50 -152 L54 -147 L47 -140 C39 -131 22 -129 6 -133 Z" fill="url(#body)" stroke="url(#rim)" stroke-width="1.6"/>
+          <path d="M30 -163 L44 -161" stroke="#ff7a3a" stroke-width="2.2" stroke-linecap="round" filter="url(#bloom)">
+            <animate attributeName="opacity" values="1;0.45;1;0.8;1" dur="2.6s" repeatCount="indefinite"/>
+          </path>
+          <!-- heat haze rising off the shoulders -->
+          <g fill="none" stroke="#ff9a5c" stroke-width="1.2" stroke-linecap="round" opacity="0.5" filter="url(#blur)">
+            <path d="M-20 -128 C-26 -146 -14 -158 -22 -176"><animate attributeName="opacity" values="0;0.5;0" dur="3.2s" repeatCount="indefinite"/></path>
+            <path d="M30 -124 C24 -144 38 -154 28 -176"><animate attributeName="opacity" values="0;0.5;0" dur="3.2s" begin="1.2s" repeatCount="indefinite"/></path>
+          </g>
+        </g>
+
+        <!-- near leg -->
+        <g>
+          <animateTransform attributeName="transform" type="rotate" values="-28 0 0;20 0 0;-4 0 0;-28 0 0" keyTimes="0;0.5;0.75;1" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1;.45 0 .55 1" dur="2.8s" repeatCount="indefinite"/>
+          <path d="M-17 -4 C-21 30 -15 60 -11 82 L11 82 C16 58 21 28 17 -4 Z" fill="url(#body)" stroke="url(#rim)" stroke-width="1.6"/>
+          <g transform="translate(0 82)">
+            <animateTransform attributeName="transform" additive="sum" type="rotate" values="0 0 0;12 0 0;62 0 0;0 0 0" keyTimes="0;0.5;0.75;1" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1;.45 0 .55 1" dur="2.8s" repeatCount="indefinite"/>
+            <path d="M-11 0 C-15 22 -9 52 -6 80 L6 80 C9 52 12 22 11 0 Z" fill="url(#body)" stroke="url(#rim)" stroke-width="1.6"/>
+            <path d="M-7 78 L7 78 L9 88 C22 90 32 94 34 100 L-9 100 Z" fill="url(#body)" stroke="url(#rim)" stroke-width="1.6"/>
+          </g>
+        </g>
+
+        <!-- near arm -->
+        <g transform="translate(-6 -116)">
+          <g>
+            <animateTransform attributeName="transform" type="rotate" values="18 0 0;-22 0 0;18 0 0" keyTimes="0;0.5;1" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1" dur="2.8s" repeatCount="indefinite"/>
+            <path d="M-12 -6 C-14 20 -11 46 -8 70 L8 70 C11 46 13 20 12 -6 Z" fill="url(#body)" stroke="url(#rim)" stroke-width="1.6"/>
+            <g transform="translate(0 70)">
+              <animateTransform attributeName="transform" additive="sum" type="rotate" values="-34 0 0;-12 0 0;-34 0 0" keyTimes="0;0.5;1" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1" dur="2.8s" repeatCount="indefinite"/>
+              <path d="M-8 0 C-10 22 -8 44 -5 62 L-5 78 L7 80 L8 62 C10 44 10 20 8 0 Z" fill="url(#body)" stroke="url(#rim)" stroke-width="1.6"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- ground haze in front of the giant -->
+  <rect x="0" y="236" width="1200" height="100" fill="url(#haze)"/>
+  <g filter="url(#blur)">
+    <rect x="-500" y="286" width="560" height="34" fill="url(#fog)"><animate attributeName="x" values="-560;1200" dur="38s" repeatCount="indefinite"/></rect>
+  </g>
+  <rect x="0" y="330" width="1200" height="30" fill="#050608"/>
+  <line x1="0" y1="330.5" x2="1200" y2="330.5" stroke="#ff6a2b" stroke-opacity="0.35"/>
+
+  <!-- embers -->
+  <g fill="#ff8a4a" filter="url(#bloom)">
+    <circle r="1.6" cx="120" cy="340"><animate attributeName="cy" values="340;40" dur="9s" repeatCount="indefinite"/><animate attributeName="cx" values="120;160;110" dur="9s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="9s" repeatCount="indefinite"/></circle>
+    <circle r="1.2" cx="300" cy="340"><animate attributeName="cy" values="340;70" dur="7s" begin="1s" repeatCount="indefinite"/><animate attributeName="cx" values="300;330;290" dur="7s" begin="1s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="7s" begin="1s" repeatCount="indefinite"/></circle>
+    <circle r="1.8" cx="470" cy="340"><animate attributeName="cy" values="340;30" dur="10s" begin="2s" repeatCount="indefinite"/><animate attributeName="cx" values="470;440;480" dur="10s" begin="2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="10s" begin="2s" repeatCount="indefinite"/></circle>
+    <circle r="1.3" cx="640" cy="340"><animate attributeName="cy" values="340;60" dur="8s" begin="0.5s" repeatCount="indefinite"/><animate attributeName="cx" values="640;670;650" dur="8s" begin="0.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="8s" begin="0.5s" repeatCount="indefinite"/></circle>
+    <circle r="1.7" cx="790" cy="340"><animate attributeName="cy" values="340;20" dur="11s" begin="3s" repeatCount="indefinite"/><animate attributeName="cx" values="790;760;800" dur="11s" begin="3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="11s" begin="3s" repeatCount="indefinite"/></circle>
+    <circle r="1.4" cx="950" cy="340"><animate attributeName="cy" values="340;50" dur="8.5s" begin="1.5s" repeatCount="indefinite"/><animate attributeName="cx" values="950;980;940" dur="8.5s" begin="1.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="8.5s" begin="1.5s" repeatCount="indefinite"/></circle>
+    <circle r="1.1" cx="1090" cy="340"><animate attributeName="cy" values="340;80" dur="6.5s" begin="2.5s" repeatCount="indefinite"/><animate attributeName="cx" values="1090;1060;1100" dur="6.5s" begin="2.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="6.5s" begin="2.5s" repeatCount="indefinite"/></circle>
+    <circle r="1.5" cx="210" cy="340"><animate attributeName="cy" values="340;50" dur="9.5s" begin="4s" repeatCount="indefinite"/><animate attributeName="cx" values="210;240;200" dur="9.5s" begin="4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="9.5s" begin="4s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- light sweep -->
+  <rect x="-300" y="0" width="300" height="360" fill="url(#sweep)"><animate attributeName="x" values="-300;1200" dur="9s" repeatCount="indefinite"/></rect>
+
+  <!-- frame corners -->
+  <g stroke="#ff6a2b" stroke-opacity="0.55" stroke-width="1.2" fill="none">
+    <path d="M18 40 L18 18 L40 18"/>
+    <path d="M1160 18 L1182 18 L1182 40"/>
+    <path d="M18 320 L18 342 L40 342"/>
+    <path d="M1160 342 L1182 342 L1182 320"/>
+  </g>
+
+  <!-- title -->
+  <g clip-path="url(#reveal)">
+    <text x="58" y="118" font-family="Georgia, 'Times New Roman', serif" font-size="76" letter-spacing="18" fill="#efe8dc">PARV</text>
+  </g>
+  <rect x="60" y="136" height="3" width="0" fill="#ff6a2b"><animate attributeName="width" from="0" to="84" dur="0.8s" begin="1.2s" fill="freeze"/></rect>
+
+  <g font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="16" letter-spacing="3" fill="#ff8a4a">
+    <text x="60" y="174"><tspan fill="#8a8f9c">&gt; </tspan>COMPUTER VISION<animate attributeName="opacity" calcMode="discrete" values="1;0;0" keyTimes="0;0.3333;0.6667" dur="9s" repeatCount="indefinite"/></text>
+    <text x="60" y="174"><tspan fill="#8a8f9c">&gt; </tspan>INFERENCE SYSTEMS<animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.3333;0.6667" dur="9s" repeatCount="indefinite"/></text>
+    <text x="60" y="174"><tspan fill="#8a8f9c">&gt; </tspan>FULL-STACK PLATFORMS<animate attributeName="opacity" calcMode="discrete" values="0;0;1" keyTimes="0;0.3333;0.6667" dur="9s" repeatCount="indefinite"/></text>
+  </g>
+  <text x="60" y="202" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="13" letter-spacing="2" fill="#8a8f9c">second-year AI/ML student</text>
+<metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTplNDA3OTdmZS03MWU4LTRjYWYtODdiZS1iOTY3YjNlNWQ3MmUAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaK0vYOOvjVbOHYHs/CpI5osAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDozMTRlMWJiZS1kYjFhLTQ2YmItOGI4NC1iYmUxNTg2MzAxZDNscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoMr08k96/K0psuieVnnffwgAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggTm5IpWgLuTG5uYvBq2v+JZtbswiUugcQZBTlbmopuzukZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaGc0/3FQmDmW+Hpld1tE7zEAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIEdupo2cwnidpTUW8w65WRy9Hceq34UcvMeFm3mkAEy9ZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GT+oZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOmU0MDc5N2ZlLTcxZTgtNGNhZi04N2JlLWI5NjdiM2U1ZDcyZS9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOmExODNkNTA0LWFjZjctNDA0ZS1iZDk1LTA1OTU1MmI5NTczMXJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCBObkilaAu5Mbm5i8Gra/4lm1uzCJS6BxBkFOVuaim7O6JjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggjIKbG5E223yoXQ/g+uWOx7NUSQhSjjXm0SDqOAlu6s2iY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggOuHgA2rJelwsFuiexg98C8kXH5wcsyZ79jCSJEvCFNF0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQKwNoY6C4CnMBflW7ce/K7Px62NEN65ppdIHHgRzaOhI7lr+8K7Br+kKf/XAZ3XDFaFTvKZFUimZp51XDxL0kLw=</c2pa:manifest></metadata></svg>
