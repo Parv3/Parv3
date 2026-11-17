@@ -40,11 +40,13 @@ I'm a second-year AI/ML student. Most of what I build sits between a model and t
 
 <img src="https://raw.githubusercontent.com/Parv3/Parv3/main/assets/divider-pulse.svg" width="100%" alt="" />
 
-## GitHub activity
+## Activity
 
 <p>
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Parv3&hide_border=true&count_private=true&include_all_commits=true&title_color=ff6a2b&icon_color=c2410c&text_color=cfc9bf&bg_color=0a0b0e" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Parv3&layout=compact&hide_border=true&langs_count=6&title_color=ff6a2b&text_color=cfc9bf&bg_color=0a0b0e" alt="Most used languages" />
+  <img src="https://img.shields.io/github/followers/Parv3?style=flat-square&label=followers&labelColor=0a0b0e&color=ff6a2b" alt="Followers" />
+  <img src="https://img.shields.io/github/last-commit/Parv3/TriNetra?style=flat-square&label=TriNetra%20last%20commit&labelColor=0a0b0e&color=ff6a2b" alt="TriNetra last commit" />
+  <img src="https://img.shields.io/github/last-commit/Parv3/NagarDrishti?style=flat-square&label=NagarDrishti%20last%20commit&labelColor=0a0b0e&color=ff6a2b" alt="NagarDrishti last commit" />
+  <img src="https://img.shields.io/github/last-commit/Parv3/SynapseGateway?style=flat-square&label=SynapseGateway%20last%20commit&labelColor=0a0b0e&color=ff6a2b" alt="SynapseGateway last commit" />
 </p>
 
 <img src="https://raw.githubusercontent.com/Parv3/Parv3/main/assets/divider-pulse.svg" width="100%" alt="" />
