@@ -1,10 +1,10 @@
-<img src="assets/banner.svg" width="100%" alt="Parv - AI / ML, computer vision, inference systems" />
+<img src="assets/banner-ember.svg" width="100%" alt="Parv - AI / ML, computer vision, inference systems" />
 
 <br/>
 
 I'm a second-year AI/ML student. Most of what I build sits between a model and the thing that has to run it: vision pipelines that process several video streams, gateways that route inference requests, and the web layer that makes the output usable.
 
-<img src="assets/divider.svg" width="100%" alt="" />
+<img src="assets/divider-pulse.svg" width="100%" alt="" />
 
 ## Currently working on
 
@@ -14,7 +14,9 @@ I'm a second-year AI/ML student. Most of what I build sits between a model and t
 | [NagarDrishti](https://github.com/Parv3/NagarDrishti) | Civic monitoring platform built around AI-driven telemetry |
 | [SynapseGateway](https://github.com/Parv3/SynapseGateway) | Asynchronous gateway for routing requests to AI services |
 
-<img src="assets/divider.svg" width="100%" alt="" />
+<img src="assets/pipeline.svg" width="100%" alt="Reference pipeline: video streams, decode and batch, detection, tracking, async gateway, dashboard" />
+
+<img src="assets/divider-pulse.svg" width="100%" alt="" />
 
 ## Projects
 
@@ -25,7 +27,7 @@ I'm a second-year AI/ML student. Most of what I build sits between a model and t
 | **SynapseGateway** | Handling many concurrent inference requests without blocking | Python, AsyncIO |
 | **gesturecontrol** | Controlling a computer through hand gestures from a webcam | Python, OpenCV, MediaPipe |
 
-<img src="assets/divider.svg" width="100%" alt="" />
+<img src="assets/divider-pulse.svg" width="100%" alt="" />
 
 ## Tools
 
@@ -36,16 +38,16 @@ I'm a second-year AI/ML student. Most of what I build sits between a model and t
 | Frontend | TypeScript, JavaScript, React, Next.js, Tailwind CSS |
 | Environment | Linux, Bash, Git, Docker |
 
-<img src="assets/divider.svg" width="100%" alt="" />
+<img src="assets/divider-pulse.svg" width="100%" alt="" />
 
 ## GitHub activity
 
 <p>
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Parv3&hide_border=true&count_private=true&include_all_commits=true&title_color=c22a2a&icon_color=8f1d1d&text_color=cfc6c6&bg_color=0d0707" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Parv3&layout=compact&hide_border=true&langs_count=6&title_color=c22a2a&text_color=cfc6c6&bg_color=0d0707" alt="Most used languages" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Parv3&hide_border=true&count_private=true&include_all_commits=true&title_color=ff6a2b&icon_color=c2410c&text_color=cfc9bf&bg_color=0a0b0e" alt="GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Parv3&layout=compact&hide_border=true&langs_count=6&title_color=ff6a2b&text_color=cfc9bf&bg_color=0a0b0e" alt="Most used languages" />
 </p>
 
-<img src="assets/divider.svg" width="100%" alt="" />
+<img src="assets/divider-pulse.svg" width="100%" alt="" />
 
 ## Contact
 
